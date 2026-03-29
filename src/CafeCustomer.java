@@ -39,7 +39,23 @@ public class CafeCustomer {
 
     }
 
-    public void displayCustomerData() {
+    public int getCustomerId() {
+
+        return customerId;
+
+    } public String getFirstName() {
+
+        return firstName;
+
+    } public String getLastName() {
+
+        return lastName;
+
+    } public String getEmail() {
+
+        return email;
+
+    } public void displayCustomerData() {
 
         System.out.println(customerId + "\t" + firstName + " " + lastName + "\t" + email);
 
